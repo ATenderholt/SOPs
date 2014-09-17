@@ -20,10 +20,27 @@ The purposes of this test method are:
 BACKGROUND
 ==========
 
+Every time a test method has been updated, Luke posts the DOCX file to Egnyte.
+If anyone were to propose changes, the updated file would have to be mailed to
+Luke (or anyone involved with signing off on test methods) for approval. The
+revised document would then need to be re-uploaded to Egnyte.
+
+This workflow of revising test methods strikes me as very inefficient, and so
+I started thinking about another method. As there were already talks about CVS, SVN,
+and git, I started thinking about Github since it already provides a great platform for
+collaboration. Indeed, there are already numerous non-code projects that take advantage
+of it.
+
+The issue is then how to most effectively collaborate. Since DOCX files are binary,
+that basically negates any advantage that Github would provide. Therefore, a text-based
+format would be desirable. This format should be easily convertible to one that can be
+printed well, such as PDF, and it should have a very minimal learning curve. I
+think Markdown fits both of these requirements.
+
 Markdown formatting was created as a way to specify document structure using a
-simple syntax for document features. This is in contrast to mark-up formats such
-as HTML or LaTex which require a more extensive knowledge to format documents
-properly and are not as human readable.
+simple syntax for document features, with a goal of maintaining readability.
+This is in contrast to mark-up formats such as HTML or LaTex which require a more 
+extensive knowledge to format documents properly and are not as human readable.
 
 SYNTAX
 ======
