@@ -39,7 +39,7 @@ think Markdown fits both of these requirements.
 
 Markdown formatting was created as a way to specify document structure using a
 simple syntax for document features, with a goal of maintaining readability.
-This is in contrast to mark-up formats such as HTML or LaTex which require a more 
+This is in contrast to mark-up formats such as HTML or LaTeX which require a more 
 extensive knowledge to format documents properly and are not as human readable.
 
 SYNTAX
@@ -79,7 +79,7 @@ Another feature that is very useful are nested (enumerated) lists. For example:
     #.  subitem 2.1
     
 The above list was created with the following syntax. Note that the list is
-autonumbered based on section number, but this is *somewhat* configurable.
+auto-numbered based on section number, but this is *somewhat* configurable.
 
     #.  Item 1
         #.  subitem 1.1
@@ -99,7 +99,7 @@ CONVERSION
 ==========
 
 The open source program "pandoc" can convert from several text formatting
-styles, including Markdown and \LaTeX, and output several other formats such as
+styles, including Markdown and \LaTeX, to output several other formats such as
 HTML, PDF, and DOCX. 
 
 It was most straight-forward to use pandoc to convert to PDF, which goes through
@@ -124,4 +124,10 @@ GITHUB COLLABORATION
 
 This next part is harder to show in a document, so a example Github repo has
 been created.
+
+Features to highlight:
+
+#.  Personal forks for those not approved for the sign-off process.
+#.  Pull requests, with changes and being able to comment on lines.
+#.  Email notifications.
 
